@@ -1,0 +1,322 @@
+ul{list-style: none;}
+
+/* MOBILE OPTIMIZATIONS (INCOMPLETE) */ 
+
+@media screen and (min-width: 400px) { 
+  .Home-Flex,
+  .feature1-flex,
+  .feature1-content,
+  .history-flex {
+    display:flex;
+    align-items:flex;
+    flex-flow:row wrap;
+  }
+}
+
+@media screen and (min-width: 400px) {
+  .logo {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media screen and (min-width: 400px) {
+  .Home-pic1 {
+    width: 100%;
+    height: auto;
+    display:flex;
+  }
+}
+
+/* START OF HOME PAGE */ 
+
+.body {
+  background-color: black;
+}
+
+.logo {
+  max-height: 150px;
+  max-width: 700px;
+
+}
+
+.navigation-buttons {
+  display:flex;
+  flex-direction: row;
+  background-color: yellow;
+  font-family: Goldman;
+  justify-content: space-around;
+  height: 80px
+
+}
+.button {
+  padding: 20px;
+  font-size: 25px;
+}
+
+.Home-Flex {
+  display:flex;
+  align-items:flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.Home-pic1 {
+  width:750px ;
+  height:400px;
+  border: 10px solid cyan;
+  border-style: double;
+  border-radius: 20px;
+  flex-grow: 1;
+  overflow: hidden;
+  margin-top: 40px;
+  margin-right: 40px;
+}
+
+.intro {
+
+  padding: 20px;
+  font-size: 25px;
+  text-align: flex;
+}
+
+.home-content {
+  color: yellow;
+  width: 400px;
+  font-family: Goldman;
+  font-size: 25px;
+}
+
+/* END OF HOME PAGE */ 
+
+.divider1 {
+  background-color: yellow;
+  font-family: Goldman;
+  font-size:35px;
+  text-align: center;
+  justify-content: center;
+  height: 50px;
+}
+
+/* START OF FEATURES PAGE */ 
+
+.feature1-title{
+  display:flex;
+  flex-direction: row;
+  padding: 20px;
+  color: cyan;
+  font-family: goldman;
+  font-size: 40px;
+}
+
+.feature1-flex {
+  display:flex;
+  align-items:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: yellow;
+  font-size: 38px;
+  font-family: Goldman;
+}
+.feature1-content {
+  color: cyan;
+  min-width:450px;
+  
+}
+.feature1-pic {
+  width:850px ;
+  height:450px;  
+  border: 15px solid yellow;
+  border-style: double;
+  border-radius: 20px;
+  margin-right: 50px;
+  margin-top: 50px;
+}
+
+.feature2-title{
+  font-family: Goldman;
+  color: cyan;
+  text-align: right;
+  font-size: 40px;
+  padding: 40px;
+}
+
+.feature2-flex {
+  display:flex;
+  align-items:flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  color: yellow;
+  font-size: 38px;
+  font-family: Goldman;
+  
+}
+.feature2-content {
+  min-width: 450px;
+  color: cyan;
+}
+.feature2-pic {
+  width:900px ;
+  height:500px;
+  margin-top:-50px;
+  border: 15px solid yellow;
+  border-style: double;
+  border-radius: 20px;
+  flex-grow: 2;
+  overflow: hidden;
+}
+
+
+/* END OF FEATURES PAGE */ 
+
+.divider2 {
+  background-color: cyan;
+  font-family: Goldman;
+  font-size:35px;
+  text-align: center;
+  justify-content: center;
+  height: 50px;
+}
+
+/* START OF HISTORY PAGE */ 
+
+.history-title {
+  color: yellow;
+  padding: 100px;
+  font-family: Goldman;
+  font-size: 45px;
+  margin: -80px;
+}
+
+.history-flex {
+  display:flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+
+.richardnight-pic {
+  width: 300px;
+  height: 450px;
+  border: 10px solid cyan;
+  border-style: ridge;
+  border-radius: 20px;
+  margin-right: 60px;
+}
+
+.history-content {
+  font-size: 32px;
+  color: yellow;
+  font-family: Goldman;
+  text-align: left;
+  min-width:600px;
+  margin-top:10px;
+
+ 
+}
+
+.richardnight-info-title{
+  font-size: 30px;
+  color: yellow;
+  font-family: Goldman;
+  margin-top:-50px;
+}
+
+.richardnight-info {
+  color:yellow;
+  font-family: Goldman;
+  min-width: 350px;
+  font-size: 26px;
+  text-align: left;
+  border: 10px ridge cyan;
+  border-radius: 20px;
+  margin-right: 20px;
+
+}
+
+.history-flex-2 {
+  display:flex;
+  align-items:flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  color: yellow;
+  font-size: 26px;
+  font-family: Goldman;
+
+}
+.history-content-2 {
+  color: yellow;
+  min-width:450px;
+  margin-right: 20px;
+  font-size:20px;
+}
+
+.history-pic-2 {
+  width:900px ;
+  height:500px; 
+  margin-right: 60px;
+  border: 10px double cyan;
+  border-radius: 20px;
+}
+
+/* END OF HISTORY PAGE */ 
+
+.divider3 {
+  background-color: yellow;
+  font-family: Goldman;
+  font-size:35px;
+  text-align: center;
+  justify-content: center;
+  height: 50px;
+  
+}
+
+/* START OF PURHCASE PAGE */
+
+.purchase-title {
+  font-family: Play;
+  font-size:50px;
+  color: yellow;
+  margin: 30px;
+  text-align:center;
+}
+
+.email-form,
+.name-form {
+  font-family: Goldman;
+  font-size:40px;
+  color: yellow;
+}
+
+.form {
+  padding:30px;
+  margin-top: -30px;
+  text-align: center;
+}
+
+.name-form-input,
+.email-form-input {
+  border: 4px solid ;
+  border-radius: 4px;
+  padding: 5px;
+  width: 300px;
+  height: 20px;
+}
+
+.cdpr-logo {
+  width: 300px;
+  border: 8px solid yellow;
+  border-radius: 3px;
+}
+
+.steam-logo {
+  width: 130px;
+  height: 100px;
+}
+
+.logo-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  
+  
+}
