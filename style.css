@@ -44,37 +44,42 @@ ul{list-style: none;}
   text-align: center;
 
 }
-.bottom-left {
-  position: absolute;
-  bottom: 280px;
-  left: 150px;
-  font-size: 45px;
-  font-family: Black ops one;
-}
+
 
 .top-left {
   position: absolute;
   top: 70px;
-  left: 150px;
-  font-size: 45px;
-  font-family: Black ops one;
+  left: 110px;
 }
+
 
 .top-right {
   position: absolute;
   top: 70px;
-  right: 150px;
-  font-size: 45px;
-  font-family: Black ops one;
+  right: 80px;
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: 230px;
+  left: 110px;
 }
 
 .bottom-right {
   position: absolute;
-  bottom: 280px;
-  right: 150px;
-  font-size: 45px;
-  font-family: Black ops one;
+  bottom: 230px;
+  right: 80px;
+
 }
+
+.HDR-title,
+.rtx-title,
+.dlss-title,
+.crossplatform-title {
+  font-size: 45px;
+  font-family: black ops one;
+}
+
 .logo {
   max-height: 150px;
   max-width: 700px;
