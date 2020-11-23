@@ -34,6 +34,47 @@ ul{list-style: none;}
   background-color: black;
 }
 
+.background-image1 {
+  background-image: url('Cyberpunk-pic7.png');
+  background-size: cover;
+  height:700px;
+  width:1515px;
+  z-index: -1;
+  position: relative;
+  text-align: center;
+
+}
+.bottom-left {
+  position: absolute;
+  bottom: 280px;
+  left: 150px;
+  font-size: 45px;
+  font-family: Black ops one;
+}
+
+.top-left {
+  position: absolute;
+  top: 70px;
+  left: 150px;
+  font-size: 45px;
+  font-family: Black ops one;
+}
+
+.top-right {
+  position: absolute;
+  top: 70px;
+  right: 150px;
+  font-size: 45px;
+  font-family: Black ops one;
+}
+
+.bottom-right {
+  position: absolute;
+  bottom: 280px;
+  right: 150px;
+  font-size: 45px;
+  font-family: Black ops one;
+}
 .logo {
   max-height: 150px;
   max-width: 700px;
