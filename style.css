@@ -44,14 +44,17 @@ ul{list-style: none;}
   display:flex;
   flex-direction: row;
   background-color: yellow;
-  font-family: Goldman;
+  font-family: Roboto;
   justify-content: space-around;
-  height: 80px
-
+  height: 80px;
+  
 }
 .button {
   padding: 20px;
   font-size: 25px;
+  border: 5px solid cyan;
+  border-radius: 10px;
+  flex: 1 0 200px;
 }
 
 .Home-Flex {
