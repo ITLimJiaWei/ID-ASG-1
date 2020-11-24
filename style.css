@@ -45,18 +45,21 @@ ul{list-style: none;}
 .navigation-buttons {
   display:flex;
   flex-direction: row;
-  background-color: yellow;
   font-family: Roboto;
   justify-content: space-around;
   height: 80px;
+  margin-right: 10px;
   
 }
 .button {
   padding: 20px;
   font-size: 25px;
   border: 5px solid cyan;
-  border-radius: 10px;
+  border-radius: 5px;
   flex: 1 0 200px;
+  text-align: center;
+  background-color: yellow;
+  margin-right: 10px;
 }
 .a-index {
   color: Black;
@@ -147,6 +150,7 @@ ul{list-style: none;}
 
 /* END OF HOME PAGE */ 
 
+.divider0,
 .divider1 {
   background-color: yellow;
   font-family: Goldman;
@@ -173,8 +177,9 @@ ul{list-style: none;}
   flex-direction: row;
   justify-content: space-between;
   color: yellow;
-  font-size: 38px;
+  font-size: 35px;
   font-family: Goldman;
+  margin-top: 80px;
 }
 .feature1-content {
   color: cyan;
@@ -182,13 +187,12 @@ ul{list-style: none;}
   
 }
 .feature1-pic {
-  width:850px ;
-  height:450px;  
-  border: 15px solid yellow;
-  border-style: double;
+  width: 850px ;
+  height: 450px;  
+  border: 15px double yellow;
   border-radius: 20px;
   margin-right: 50px;
-  margin-top: 50px;
+  margin-top: 0px;
 }
 
 .feature2-title{
@@ -205,7 +209,7 @@ ul{list-style: none;}
   flex-direction: row-reverse;
   justify-content: space-between;
   color: yellow;
-  font-size: 38px;
+  font-size: 35px;
   font-family: Goldman;
   
 }
@@ -255,14 +259,13 @@ ul{list-style: none;}
 .richardnight-pic {
   width: 300px;
   height: 450px;
-  border: 10px solid cyan;
-  border-style: ridge;
+  border: 10px double cyan;
   border-radius: 20px;
   margin-right: 60px;
 }
 
 .history-content {
-  font-size: 32px;
+  font-size: 31px;
   color: yellow;
   font-family: Goldman;
   text-align: left;
@@ -285,7 +288,7 @@ ul{list-style: none;}
   min-width: 350px;
   font-size: 26px;
   text-align: left;
-  border: 10px ridge cyan;
+  border: 10px double cyan;
   border-radius: 20px;
   margin-right: 20px;
 
@@ -338,12 +341,17 @@ ul{list-style: none;}
 
 /* START OF FORM PAGE */
 
-.navigation-button {
-  font-family: Roboto;
-  font-size: 50px;
+.button-form {
+  padding: 20px;
+  font-size: 25px;
+  border: 5px solid cyan;
+  border-radius: 5px;
+  text-align: center;
   background-color: yellow;
-
+  margin-right: 10px;
+  width:300px;
 }
+
 .purchase-title {
 
   font-family: Roboto;
@@ -353,9 +361,8 @@ ul{list-style: none;}
  
 }
 
-.email-form,
-.paymentmethod-form,
-.enquiry-form {
+.cardnumber,
+.paymentmethod-form {
   font-family: Roboto;
   font-size:24px;
   color: yellow;
@@ -375,6 +382,16 @@ ul{list-style: none;}
   color: black;
   margin-top: 5px;
 }
+
+.cardnumber-input {
+  border: 6px solid cyan;
+  border-radius: 2px;
+  width: 285px;
+  height: 30px;
+  font-size: 25px;
+}
+
+
 .option1 {
   font-size:16px;
 }

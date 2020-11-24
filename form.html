@@ -14,22 +14,24 @@
 <body class ='body'>
     </ul>
     <ul class="navigation-button">
-        <li class="button" style="flex-basis: 50px">
-            <a href="index.html">Home</a>
+        <li class="button-form" style="flex-basis: 50px">
+            <a class="a-index"href="index.html">Home</a>
         </li>
     </ul>
 
     <h2 class="purchase-title"><u>Purchase Cyberpunk 2077</u></h2>
-	<form class ='form-payment'>
+	<form class ="form-payment">
 		<label class='paymentmethod-form'for="name">Please select payment method</label><br>
 		<select class= "paymentmethod-input" name="paymentmethod" id="paymentmethod-input">
-			<option class ='option1'value="Visa">Visa</option>
+			<option class ="option1"value="Visa">Visa</option>
 			<option value="MasterCard">MasterCard</option>
 			<option value="POSB PayNow">PayNow</option>
 			<option value="DBS PayLah!">PayLah!</option>
 		  </select>
-		<label for="Card Number">Card Number</label>  <!-- APPLY CSS STYLING !!!-->
-		<input type="number" id="cardnumber" name="cardnumber">  
+		<p class="cardnumber">
+			Card Number
+		</p>
+		<input class="cardnumber-input"type="text" id="cardnumber" name="cardnumber" placeholder="1111-2222-3333-4444" maxlength="16">  
 	</form>
 
 		<ul class="logo-flex">
