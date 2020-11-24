@@ -73,14 +73,14 @@ ul{list-style: none;}
 }
 
 .Home-pic1 {
-  width:750px ;
-  height:400px;
+  width:900px ;
+  height:450px;
   border: 10px solid cyan;
   border-style: double;
   border-radius: 20px;
   flex-grow: 1;
   overflow: hidden;
-  margin-top: 40px;
+  margin-top: 45px;
   margin-right: 40px;
 }
 
