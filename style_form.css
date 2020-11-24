@@ -1,1 +1,55 @@
 ul{list-style: none;}
+
+/* START OF FORM PAGE */
+
+.purchase-title {
+
+    font-family: Play;
+    font-size:50px;
+    color: yellow;
+    margin: 30px;
+    text-align:center;
+}
+  
+.email-form,
+.name-form,
+.enquiry-form {
+    font-family: Play;
+    font-size:40px;
+    color: yellow;
+}
+  
+.form {
+    padding:30px;
+    margin-top: -30px;
+    text-align: center;
+}
+  
+.name-form-input,
+.email-form-input {
+    border: 4px solid ;
+    border-radius: 4px;
+    padding: 5px;
+    width: 300px;
+    height: 20px;
+}
+  
+.enquiry-form-input {
+    border: 4px solid ;
+    border-radius: 4px;
+    padding: 5px;
+    width: 300px;
+    height: 60px;
+}
+  
+.cdpr-logo {
+    width: 300px;
+    border: 8px solid yellow;
+    border-radius: 3px;
+}
+  
+.logo-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
