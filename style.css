@@ -34,6 +34,69 @@ ul{list-style: none;}
   background-color: black;
 }
 
+
+
+.logo {
+  max-height: 150px;
+  max-width: 700px;
+
+}
+
+.navigation-buttons {
+  display:flex;
+  flex-direction: row;
+  background-color: yellow;
+  font-family: Roboto;
+  justify-content: space-around;
+  height: 80px;
+  
+}
+.button {
+  padding: 20px;
+  font-size: 25px;
+  border: 5px solid cyan;
+  border-radius: 10px;
+  flex: 1 0 200px;
+}
+.a-index {
+  color: black;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.Home-Flex {
+  display:flex;
+  align-items:flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.Home-pic1 {
+  width:750px ;
+  height:400px;
+  border: 10px solid cyan;
+  border-style: double;
+  border-radius: 20px;
+  flex-grow: 1;
+  overflow: hidden;
+  margin-top: 40px;
+  margin-right: 40px;
+}
+
+.intro {
+
+  padding: 20px;
+  font-size: 25px;
+  text-align: flex;
+}
+
+.home-content {
+  color: yellow;
+  width: 400px;
+  font-family: Goldman;
+  font-size: 25px;
+}
+
 .background-image1 {
   background-image: url('Cyberpunk-pic7.png');
   background-size: cover;
@@ -42,6 +105,7 @@ ul{list-style: none;}
   z-index: -1;
   position: relative;
   text-align: center;
+  border: 10px solid cyan;
 
 }
 
@@ -78,62 +142,6 @@ ul{list-style: none;}
 .crossplatform-title {
   font-size: 45px;
   font-family: black ops one;
-}
-
-.logo {
-  max-height: 150px;
-  max-width: 700px;
-
-}
-
-.navigation-buttons {
-  display:flex;
-  flex-direction: row;
-  background-color: yellow;
-  font-family: Roboto;
-  justify-content: space-around;
-  height: 80px;
-  
-}
-.button {
-  padding: 20px;
-  font-size: 25px;
-  border: 5px solid cyan;
-  border-radius: 10px;
-  flex: 1 0 200px;
-}
-
-.Home-Flex {
-  display:flex;
-  align-items:flex;
-  flex-direction: row;
-  justify-content: space-around;
-}
-
-.Home-pic1 {
-  width:750px ;
-  height:400px;
-  border: 10px solid cyan;
-  border-style: double;
-  border-radius: 20px;
-  flex-grow: 1;
-  overflow: hidden;
-  margin-top: 40px;
-  margin-right: 40px;
-}
-
-.intro {
-
-  padding: 20px;
-  font-size: 25px;
-  text-align: flex;
-}
-
-.home-content {
-  color: yellow;
-  width: 400px;
-  font-family: Goldman;
-  font-size: 25px;
 }
 
 /* END OF HOME PAGE */ 
