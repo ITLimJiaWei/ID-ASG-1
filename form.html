@@ -18,20 +18,81 @@
             <a class="a-index"href="index.html">Home</a>
         </li>
     </ul>
+	
+	</ul>
+	<ul class="form-row1-flex">
+		<li class="form-row1-1" style="flex-basis: 50px">
+			<label class='paymentmethod-form'for="name">Select payment method</label><br>
+			<select class= "paymentmethod-input" name="paymentmethod" id="paymentmethod-input">
+				<option class ="option1"value="Visa">Visa</option>
+				<option value="MasterCard">MasterCard</option>
+				<option value="POSB PayNow">PayNow</option>
+				<option value="DBS PayLah!">PayLah!</option>
+				  </select>
+				</li>
+			<li class="form-row1-2" style="flex-basis: 50px">
+				<h1 class="cvv">CVV</h1>
+				<input class="cvv-input"type="text" id="cvv" name="cvv" placeholder="352" maxlength="3">
+			</li>
+		</ul>
 
-    <h2 class="purchase-title"><u>Purchase Cyberpunk 2077</u></h2>
-	<form class ="form-payment">
-		<label class='paymentmethod-form'for="name">Please select payment method</label><br>
-		<select class= "paymentmethod-input" name="paymentmethod" id="paymentmethod-input">
-			<option class ="option1"value="Visa">Visa</option>
-			<option value="MasterCard">MasterCard</option>
-			<option value="POSB PayNow">PayNow</option>
-			<option value="DBS PayLah!">PayLah!</option>
-		  </select>
-		<p class="cardnumber">
-			Card Number
-		</p>
-		<input class="cardnumber-input"type="text" id="cardnumber" name="cardnumber" placeholder="1111-2222-3333-4444" maxlength="16">  
+	</ul>
+	<ul class="form-row2-flex">
+		<li class="form-row2-1" style="flex-basis: 50px">
+			<h1 class="cardnumber">Card Number</h1>
+
+			<input class="cardnumber-input"type="text" id="cardnumber" name="cardnumber" placeholder="1111-2222-3333-4444" maxlength="16"> 
+				</li>
+			<li class="form-row2-2" style="flex-basis: 50px">
+				<label class='monthexpiry-form'for="name">Expiry</label><br>
+				<select class= "monthexpiry-input" name="monthexpiry" id="monthexpiry-input">
+					<option value="1">01</option>
+					<option value="2">02</option>
+					<option value="3">03</option>
+					<option value="4">04</option>
+					<option value="5">05</option>
+					<option value="6">06</option>
+					<option value="7">07</option>
+					<option value="8">08</option>
+					<option value="9">09</option>
+					<option value="10">10</option>
+					<option value="11">11</option>
+					<option value="12">12</option>
+				</select>
+			</li>
+			<li class="form-row2-3" style="flex-basis: 50px">
+				<label class='yearexpiry-form'for="name">Date</label><br>
+				<select class= "yearexpiry-input" name="yearexpiry" id="yearexpiry-input">
+					<option value="2020">2020</option>
+					<option value="2021">2021</option>
+					<option value="2022">2022</option>
+					<option value="2023">2023</option>
+					<option value="2024">2024</option>
+					<option value="2025">2025</option>
+					<option value="2026">2026</option>
+					<option value="2027">2027</option>
+					<option value="2028">2028</option>
+				</select>
+			</li>
+		</ul>
+
+	</ul>
+	<ul class="form-row3-flex">
+		<li class="form-row3-1" style="flex-basis: 50px">
+			<li class="form-row3-2" style="flex-basis: 50px">
+				<h1 class="block-number-form">Block No</h1>
+				<input class="block-number-input"type="text" id="blocknumber" blocknumber="cvv" placeholder="#05-45" maxlength="6">
+			</li>
+			<label class='billingaddress-form'for="name">Billing Address</label><br>
+			<input class="billingaddress-input"type="text" id="address" name="address" placeholder="Senja Road 670617"> 
+			
+			</li>
+			
+		</ul>
+
+	</ul>
+	<input type="submit" value="Continue to checkout" class="checkout">
+
 	</form>
 
 		<ul class="logo-flex">
@@ -40,7 +101,6 @@
 					<img class ="cdpr-logo" src="CDP-RED_logo_720x405.png" alt="https://en.cdprojektred.com/" width="270" height="150">
 					</a></p>
 			</li>
-			<!--NOTE: Puchase Form needs to be greatly improved with flexboxes-->
 
 
 

@@ -68,6 +68,12 @@ ul{list-style: none;}
   font-family: Goldman;
 }
 
+.a-index:hover {
+  background-color: cyan;
+  border: 5px solid cyan;
+  border-radius: 10px;
+}
+
 .Home-Flex {
   display:flex;
   align-items:flex;
@@ -158,6 +164,8 @@ ul{list-style: none;}
   text-align: center;
   justify-content: center;
   height: 50px;
+  margin-bottom:40px;
+  margin-top:40px;
 }
 
 /* START OF FEATURES PAGE */ 
@@ -328,6 +336,7 @@ ul{list-style: none;}
   text-align: center;
   justify-content: center;
   height: 50px;
+  margin-bottom: 40px;
   
 }
 
@@ -352,13 +361,24 @@ ul{list-style: none;}
   width:300px;
 }
 
-.purchase-title {
 
-  font-family: Roboto;
-  font-size:50px;
-  color: yellow;
+.form-row1-flex{
+  display:flex;
+  flex-direction: row;
+}
+
+.form-row2-flex,
+.form-row3-flex {
+  display: flex;
+  flex-direction: row;
+}
+
+.form-row1-2 {
   margin-left: 30px;
- 
+}
+
+.form-row2-3 {
+  margin-left:30px;
 }
 
 .cardnumber,
@@ -368,9 +388,60 @@ ul{list-style: none;}
   color: yellow;
 }
 
+.block-number-form {
+  font-family: Roboto;
+  font-size:24px;
+  color: yellow;
+  margin-left: -50px;
+}
+
+.billingaddress-form  {
+  font-family: Roboto;
+  font-size:24px;
+  color: yellow;
+  margin-left: 95px;
+
+}
+
+.billingaddress-input{
+  font-family: Roboto;
+  font-size:18px;
+  color: yellow;
+  margin-left: -50px;
+  border: 6px solid cyan;
+  margin-top: 58px;
+  margin-left: -160px;
+  height:30px;
+}
+
+.block-number-input {
+  font-family: Roboto;
+  font-size:20px;
+  color: yellow;
+  margin-left: -50px;
+  border: 6px solid cyan;
+}
+
+.cvv {
+  font-family: Roboto;
+  font-size:24px;
+  color: yellow;
+  margin-top:-10px;
+  
+}
+
+.monthexpiry-form {
+  font-family: Roboto;
+  font-size:24px;
+  color: yellow;
+  margin-left: 30px;
+  margin-top: 30px;
+
+}
+
 .form-payment {
   padding:30px;
-  margin-top: -30px;
+  margin-top: -20px;
   
 }
 .paymentmethod-input {
@@ -391,14 +462,52 @@ ul{list-style: none;}
   font-size: 25px;
 }
 
-
-.option1 {
-  font-size:16px;
+.cvv-input {
+  border: 6px solid cyan;
+  border-radius: 2px;
+  width: 100px;
+  height: 30px;
+  font-size:20px;
 }
 
+.monthexpiry-input {
+  border: 6px solid cyan;
+  border-radius: 2px;
+  width: 80px;
+  height: 40px;
+  font-size:20px;
+  margin-left:30px;
+  margin-top: 30px;
+}
+
+.yearexpiry-input {
+  border: 6px solid cyan;
+  border-radius: 2px;
+  width: 80px;
+  height: 40px;
+  font-size:20px;
+  margin-top: 40px;
+}
+
+.checkout {
+  background-color: yellow;
+  color: black;
+  padding: 12px;
+  margin-left: 40px;
+  border: 6px solid cyan;
+  width: 30%;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: Goldman;
+
+}
 
 .cdpr-logo {
-  width: 300px;
+  height: 150px;
+  width: 280px;
   border: 8px solid cyan;
   border-radius: 3px;
 }
@@ -406,8 +515,9 @@ ul{list-style: none;}
 .logo-flex {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  
 }
+
 
 
 
