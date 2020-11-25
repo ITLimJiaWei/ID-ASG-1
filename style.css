@@ -1,28 +1,6 @@
 ul{list-style: none;}
 
-/* MOBILE OPTIMIZATIONS (INCOMPLETE) */ 
 
-
-@media screen and (max-width: 800px) {
-  .navigation-buttons {
-    flex-direction: column;
-    margin-top: 200px;
-    margin-bottom: 200px;
-  }
-  .Home-Flex {
-    flex-direction: column;
-  }
-  .Home-pic1 {
-    max-width: 100%;
-    max-height: 100%;
-  }
-}
-
-@media screen and (max-width: 1400px) {
-  .divider0 {
-    font-size: 10px;
-  }
-}
 
 /* START OF HOME PAGE */ 
 
@@ -108,6 +86,7 @@ ul{list-style: none;}
   margin-top:40px;
 }
 
+
 .background-image1 {
   background-image: url('Cyberpunk-pic7.png');
   background-size: cover;
@@ -117,8 +96,9 @@ ul{list-style: none;}
   position: relative;
   text-align: center;
   border: 10px solid cyan;
-
+  width:100%;
 }
+
 
 
 .top-left {
@@ -172,7 +152,6 @@ ul{list-style: none;}
 
 .feature1-title{
   display:flex;
-  flex-direction: row;
   padding: 20px;
   color: cyan;
   font-family: goldman;
@@ -520,5 +499,69 @@ ul{list-style: none;}
 
 
 
+@media screen and (max-width: 800px) {
+  .navigation-buttons {
+    flex-direction: column;
+    margin-top: 200px;
+    margin-bottom: 200px;
+  }
+  .Home-Flex {
+    flex-direction: column;
+  }
+  .Home-pic1 {
+    max-width: 100%;
+    height: 300px;
+  }
+  .feature1-flex {
+    flex-direction: column;
+  }
+  .feature2-flex {
+    flex-direction: column;
+  }
+
+  .history-flex {
+    flex-direction: column-reverse;
+  }
+  .feature1-pic,
+  .feature2-pic {
+    max-width: 100%;
+    height: 300px;
+    margin-left: -28px;
+  }
+  .feature1-content {
+    font-size: 24px;
+    margin-bottom: 20px;
+    margin-top: -80px;
+  }
+
+  .feature2-content {
+    font-size: 24px;
+    margin-bottom: 80px;
+    margin-top: -20px;
+  }
+  .history-content {
+    font-size: 22px;
+    margin-bottom: 80px;
+    margin-top: 0px;
+    margin-left: -30px;
+  }
+  .system-requirements {
+    max-width: 100%;
+    height:300px;
+  }
+  .checkout {
+    min-width:300px;
+  }
+}
+
+
+@media screen and (max-width: 800px) {
+  .divider0,
+  .divider1,
+  .divider2,
+  .divider3 {
+    font-size: 20px;
+  }
+}
 
 
