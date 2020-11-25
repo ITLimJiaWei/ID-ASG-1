@@ -512,10 +512,15 @@ ul{list-style: none;}
     max-width: 100%;
     height: 300px;
   }
-  .feature1-flex {
-    flex-direction: column;
+
+  .background-image1 {
+    display: none;
+
   }
-  .feature2-flex {
+
+  .feature1-flex,
+  .feature2-flex,
+  .history-flex-2 {
     flex-direction: column;
   }
 
@@ -523,7 +528,8 @@ ul{list-style: none;}
     flex-direction: column-reverse;
   }
   .feature1-pic,
-  .feature2-pic {
+  .feature2-pic,
+  .history-pic-2 {
     max-width: 100%;
     height: 300px;
     margin-left: -28px;
@@ -538,6 +544,7 @@ ul{list-style: none;}
     font-size: 24px;
     margin-bottom: 80px;
     margin-top: -20px;
+    margin-right: 200px;
   }
   .history-content {
     font-size: 22px;
@@ -552,7 +559,15 @@ ul{list-style: none;}
   .checkout {
     min-width:300px;
   }
+  .feature2-title {
+    font-family: Goldman;
+    color: cyan;
+    text-align: left;
+    font-size: 40px;
+    padding: 40px;
+  }
   
+
 }
 
 
