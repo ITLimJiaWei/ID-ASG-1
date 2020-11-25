@@ -2,29 +2,25 @@ ul{list-style: none;}
 
 /* MOBILE OPTIMIZATIONS (INCOMPLETE) */ 
 
-@media screen and (min-width: 800px) { 
-  .Home-Flex,
-  .feature1-flex,
-  .feature1-content,
-  .history-flex {
-    display:flex;
-    align-items:flex;
-    flex-flow:row wrap;
-  }
-}
 
-@media screen and (min-width: 400px) {
-  .logo {
-    width: 100%;
-    height: auto;
+@media screen and (max-width: 800px) {
+  .navigation-buttons {
+    flex-direction: column;
+    margin-top: 200px;
+    margin-bottom: 200px;
   }
-}
-
-@media screen and (min-width: 400px) {
+  .Home-Flex {
+    flex-direction: column;
+  }
   .Home-pic1 {
-    width: 100%;
-    height: auto;
-    display:flex;
+    max-width: 100%;
+    max-height: 100%;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .divider0 {
+    font-size: 10px;
   }
 }
 
@@ -35,16 +31,14 @@ ul{list-style: none;}
 }
 
 
-
 .logo {
   max-height: 150px;
   max-width: 700px;
-
+  max-width: 100%;
 }
 
 .navigation-buttons {
   display:flex;
-  flex-direction: row;
   font-family: Roboto;
   justify-content: space-around;
   height: 80px;
@@ -77,24 +71,20 @@ ul{list-style: none;}
 .Home-Flex {
   display:flex;
   align-items:flex;
-  flex-direction: row;
   justify-content: space-around;
 }
 
 .Home-pic1 {
-  width:900px ;
+  width:900px;
   height:450px;
-  border: 10px solid cyan;
-  border-style: double;
+  border: 10px double cyan;
   border-radius: 20px;
-  flex-grow: 1;
   overflow: hidden;
   margin-top: 45px;
   margin-right: 40px;
 }
 
 .intro {
-
   padding: 20px;
   font-size: 25px;
   text-align: flex;
@@ -105,6 +95,17 @@ ul{list-style: none;}
   width: 400px;
   font-family: Goldman;
   font-size: 25px;
+}
+
+.divider0 {
+  background-color: yellow;
+  font-family: Goldman;
+  font-size:35px;
+  text-align: center;
+  justify-content: center;
+  height: 50px;
+  margin-bottom:40px;
+  margin-top:40px;
 }
 
 .background-image1 {
@@ -156,7 +157,6 @@ ul{list-style: none;}
 
 /* END OF HOME PAGE */ 
 
-.divider0,
 .divider1 {
   background-color: yellow;
   font-family: Goldman;
