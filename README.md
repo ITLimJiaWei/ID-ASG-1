@@ -31,6 +31,7 @@ CSS
 Testing 
 
 1. Webpage was tested using Google Chrome, Microsoft Edge, Internet Explorer and Mozilla Firefox at 1920x1200 resolution 
+2. HTML and CSS was validated through W3 Validators.
 
 Credits
 
